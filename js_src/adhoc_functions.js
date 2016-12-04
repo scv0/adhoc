@@ -46,7 +46,7 @@ function albums(el) {
       TextSlice('#GalleryTitle', 15, '…');
     }
   }
-  
+
 
   // скрываем альбомы и хэдер
   $('#Albums__Grid').fadeOut(0);
@@ -76,9 +76,9 @@ function albums(el) {
     dataType: 'jsonp',
     success: function(data) {
       data.response.forEach(function(item) {
-        var img = item.src_big.replace('https://', 'http://'),
-            bigImage = item.src_xxbig.replace('https://', 'http://');
-        !img ? img = item.src_big : img; 
+        var img = item.src_big,
+            bigImage = item.src_xxbig;
+        !img ? img = item.src_big : img;
 
         if ($(window).width() > 1920) {
           var moreBlocks = '<a href="'+bigImage+'" class="grid-item grid-item__beforeLoad"><img src="' + bigImage + '" alt="" class="img-alb responsive-img z-depth-3"/></a>';
@@ -114,7 +114,7 @@ function albums(el) {
             },
             fixedContentPos: true
           })
-        });        
+        });
       }
       else {
         $('.grid-item').click(function(s) {
@@ -136,7 +136,7 @@ function adhoc_parallax(element, ScrollSpeed) {
     var ScrollTop = window.pageYOffset;
 
     $(element).css('background-position', '50% '+ScrollTop*ScrollSpeed+'px')
-    
+
   });
 };
 //END

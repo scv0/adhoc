@@ -33,7 +33,7 @@ $(document).ready(function() {
       // alert('по ходу это мобила!');
     }
   })();
-  
+
 
   //Подгрузка альбомов на главную страницу
   $.ajax({
@@ -54,7 +54,7 @@ $(document).ready(function() {
           }
         }
         var aid = item.aid;
-        var thumb = item.sizes[i].src.replace('https://', 'http://');; // а тут выводим в переменную после break!
+        var thumb = item.sizes[i].src; // а тут выводим в переменную после break!
         var title = item.title;
         $('<div class="col s12 m6 l4"><div class="card waves-effect waves-block waves-light z-depth-5"><div class="card-image"><a class="ajax" onclick="albums(this)" href="#AdHoc__app"><img class="padding" src="' + thumb + '"/><div class="aid">' + item.aid + '</div><span class="card-title">'+ title +'</span></a></div></div></div></div>').appendTo('.nav-albs');
       });
