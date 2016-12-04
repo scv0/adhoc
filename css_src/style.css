@@ -1,0 +1,440 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body {
+  background: #303030;
+  position: relative;
+  min-height: 100vh;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.fixed {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100%;
+}
+
+
+#test1, #test2, #test3 {
+  position: relative;
+  padding-top: 1em;
+  display: block;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  line-height: 0px;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+#Album__Navbar {
+  margin-bottom: 3em;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+#Album__Navbar h2 {
+  display: inline-block;
+  margin: 0;
+  font-size: 23px;
+}
+
+#Album__Navbar .container-fluid {
+  /*padding: 0.25em 0;*/
+  background: #000;
+}
+
+#Album__Navbar .row {
+  margin-bottom: 0;
+}
+
+a#Album__Navbar__BackArrow {
+  padding: 13px 1em;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  z-index: 999;
+  transition: opacity 0.25s;
+}
+
+a#Album__Navbar__BackArrow:hover {
+  opacity: 0.7;
+}
+
+
+#Album__Navbar__BackArrow img {
+  background: transparent;
+  max-height: 2em;
+}
+
+
+
+
+/*Card block styles*/
+.card .card-content {
+  padding: 32px;
+  font-size: 13px;
+}
+
+.card-content h2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
+}
+
+.card-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+.card-content p {
+  line-height: 20px;
+  font-size: 14px;
+  margin: 4px 0 12px;
+}
+
+.card-content ul {
+  padding-left: 1.5em;
+}
+
+.card-content li {
+  list-style-type: disc !important;
+  padding: 0;
+  font-size: 14px;
+}
+/*//END CARD BLOCK STYLES*/
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #212121;
+}
+
+.img-alb {
+  min-width: 320px;
+  min-height: 150px;
+}
+.nav-alb {
+  font-size: 0;
+}
+img {
+  background-color: #ddd;
+}
+
+.aid{
+    display: none;
+}
+
+
+.navs{
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 56px;
+  width: 100%;
+  background-color: #212121;
+  margin: 0 auto;
+  white-space: nowrap;
+    z-index: 1;
+}
+.navsf{
+    position: fixed;
+  overflow-x: auto;
+  overflow-y: hidden;
+    top:0; left:0;
+  height: 56px;
+  width: 100%;
+  background-color: #212121;
+  margin: 0 auto;
+  white-space: nowrap;
+    z-index: 999;
+}
+.pading{
+    padding-bottom: 5px;
+}
+
+
+.tes17 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4em 30px;
+}
+
+.tes17 .grid {
+  width: 100%;
+}
+
+.grid-item {
+  width: 25%;
+  padding: 3px;
+  margin: 0;
+}
+
+.grid-item__beforeLoad {
+  display: block;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+
+/*NAVBAR STYLES*/
+#menu.fixed {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100%;
+  margin-top: 0;
+}
+
+#menu {
+  z-index: 999;
+  display: block;
+  position: relative;
+}
+
+#menu .tabs {
+  height: 56px;
+  background: transparent;
+  opacity: 1
+}
+#menu .tab {
+  height: 56px;
+}
+
+#menu .tabs .tab a{
+  line-height: 56px;
+  color: #FFF;
+}
+
+#menu .tabs .indicator {
+  background-color: #00B0FF;
+}
+/*END OF NAVBAR STYLES*/
+
+
+#GalleryTitle {
+  color: #FFF;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 2px;
+  position: relative;
+  top: -8px;
+  font-size: 2rem;
+}
+
+.waves-block {
+  display: inline-block;
+  background: transparent;
+}
+
+.waves-block .card-image {
+  border-radius: 2px;
+  background: transparent;
+}
+
+.waves-block .card-image a {
+  border-radius: 2px;
+}
+
+.waves-block .card-image a img {
+  border-radius: 2px;
+  background: transparent;
+}
+
+.footer-copyright {
+  height: 56px !important;
+  line-height: 56px !important;
+  color: #FFF !important;
+  background-color: #212121 !important;
+}
+
+.card .card-image .card-title {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,262626+70,262626+100&0+0,0.2+70,0.8+100 */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(38,38,38,0.2) 70%, rgba(38,38,38,0.8) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(38,38,38,0.2) 70%,rgba(38,38,38,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(38,38,38,0.2) 70%,rgba(38,38,38,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc262626',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  padding: 3em 1em 0.5em 1em;
+  font-weight: 400;
+}
+
+.parallax img {
+  bottom: 0 !important;
+}
+
+.description {
+  max-width: 70%;
+}
+
+#index-banner {
+  display: block;
+  position: relative;
+  background-image: url('../images/head-lens.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 0;
+  /*min-height: 300px;*/
+}
+
+#index-banner h1 {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+#index-banner h1 img {
+  background: transparent !important;
+  max-height: 2.5em;
+  max-width: 100%
+}
+
+
+#index-banner .section.no-pad-bot {
+  padding: 4em 0;
+  position: relative;
+  z-index: 3;
+}
+
+
+.SmallFont {
+  font-size: 0.8rem !important;
+  line-height: 1.4rem !important;
+}
+
+
+
+#ContactsPage a{
+  color: #fff;
+}
+
+#ContactsPage a:hover {
+  color: #00B0FF;
+}
+
+
+.ServicesList {
+  list-style-type: circle !important;
+  padding-left: 1rem !important;
+}
+
+.ServicesList li {
+  list-style-type: circle !important;
+  padding: 0.5rem 0;
+}
+
+.parallax {
+  z-index: 1 !important;
+}
+
+figure img {
+  background: transparent !important;
+}
+
+
+footer.page-footer {
+  padding-top: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*media query*/
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .grid-item {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  #index-banner {
+    min-height: auto;
+  }
+  .grid-item {
+    width: 100%;
+  }
+
+  .tabs .tab a {
+    font-size: 10px;
+  }
+
+  #GalleryTitle {
+    font-size: 2em;
+  }
+
+  .card .card-content {
+    padding: 1em;
+  }
+
+  .img-alb {
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .tes17 {
+    padding: 2em 0;
+  }
+}
