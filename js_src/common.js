@@ -63,4 +63,8 @@ $(document).ready(function() {
   //END
 
 
+  //Вставка текущего года в футер
+  $('#year').html((new Date()).getFullYear());
+
+
 });
