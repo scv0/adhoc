@@ -155,6 +155,20 @@
 
   <script src="js/adhoc_functions.min.js"></script>
   <script src="js/common.min.js"></script>
+
+  <script type="text/javascript">
+    function createCurrentDate(){
+      var currentDate = new Date;
+      var currentYear = currentDate.getFullYear();
+      var dateString = document.getElementById('year');
+      dateString.innerText = currentYear;
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      createCurrentDate();
+    })
+  </script>
+
   </script>
 
   <script type="text/javascript" src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script><script>var yaBrowserUpdater = new ya.browserUpdater.init({"lang":"ru","browsers":{"yabrowser":"15.1","chrome":"30","ie":"10","opera":"30","safari":"7","fx":"30","iron":"35","flock":"Infinity","palemoon":"25","camino":"Infinity","maxthon":"4.5","seamonkey":"2.3"},"theme":"yellow"});</script>
